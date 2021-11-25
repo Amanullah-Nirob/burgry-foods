@@ -1,0 +1,47 @@
+.service-details img {
+    width: 100%;
+}
+
+.orderPlace-Section {
+    height: 75vh;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.service-details {
+    color: #fff;
+}
+
+.order-place-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-place-form form input {
+    margin: 6px;
+    padding: 15px;
+    background: #000;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+.order-place-form form input:focus{
+    outline: 1px solid #ffbb0091;
+}
+.order-place-form {
+    background: #171717;
+    padding: 30px 31px;
+}
+.order-place-form h2 {
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 33px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+
+}

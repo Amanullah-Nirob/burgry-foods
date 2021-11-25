@@ -1,0 +1,45 @@
+[
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/P5MDQD4.png",
+      "name": "FRENCH FRIES",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "42.00","id":1
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/PW7Q8J6.png",
+      "name": "FRENCH FRIES",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "45.00","id":2
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/5K4DHPU.png",
+      "name": "BEEF CHEESE BURGER",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "15.00","id":3
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/PV3GSWE.png",
+      "name": "BIG MEETY",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "20.00","id":4
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/PY5KW5S.png",
+      "name": "DOUBLE MAC BURGER",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "45.00","id":5
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/PKZ58BH.png",
+      "name": "BEEF CHEESE BURGER",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "35.00","id":6
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/QCFS4BS-x.png",
+      "name": "BIG MEETY",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "55.00","id":7
+    }
+
+  ]

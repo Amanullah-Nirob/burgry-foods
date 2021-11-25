@@ -1,0 +1,48 @@
+.article-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.article-card-text {
+    color: #fff;
+}
+
+.article-card-text h2 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 27px;
+    margin: 0;
+    font-size: 22px;
+}
+
+.article-card-text p {
+    margin: 0;
+    margin-top: 9px;
+    color: #a5a5a5;
+    margin-bottom: 18px;
+    line-height: 22px;
+}
+.article-card-text {
+    margin-top: 19px;
+}
+.article-card-text button {
+    background: transparent;
+    color: #ffba00;
+    border: 0;
+    font-size: 16px;
+    padding: 0;
+    outline: none;
+}
+.articles-section {
+    padding-bottom: 80px;
+}
+.article-card a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+.subscribe {
+    background: #FFBa00;
+    margin: 64px 0;
+    padding: 79px 0;
+}
+
+.subscribe-title h1 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1px;
+    font-size: 40px;
+}
+
+.subscribe-title p {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.email-input input {
+    padding: 20px 0 19px 26px;
+    border: 0;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 94%;
+}
+
+.email-input {
+    width: 100%;
+}
+.subscribe-btn button {
+    background: #000;
+    color: #fff;
+    border: 0;
+    padding: 20px 0px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+.subscribe-form form {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

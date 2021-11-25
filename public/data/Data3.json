@@ -1,0 +1,38 @@
+[
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/P44F4RZ-1.png",
+      "name": "COLA",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "42.00"
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/AJQSPL4.png",
+      "name": "SWEET DOUGHNUT",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "45.00"
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/VD8ABSQ.png",
+      "name": "ICE CREAM PANCAKE",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "15.00"
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/MMG7Z26.png",
+      "name": "FRUIT PANCAKE",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "20.00"
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/PNNSUD7-2.png",
+      "name": "SWEET SMOOTHIE",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "45.00"
+    },
+    {
+      "img": "https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/VD8ABSQ.png",
+      "name": "BEEF CHEESE BURGER",
+      "dis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "35.00"
+    }
+  ]

@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,700;1,500;1,600&family=Bebas+Neue&family=Oswald:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.home{
+    background-color: #000000;
+    width: 100%;
+    height: 92vh;
+    background-image: linear-gradient(0deg, #000000 0%, #000000E3 74%),url(https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/dark-wooden-background-with-flour-dust.jpg);
+background-position: center center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 75px;
+
+}
+.Main-home-all-contents{
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.text h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 62px;
+    position: relative;
+    padding-bottom: 25px;
+    line-height: 62px;
+    color: #fff;
+    margin: 0;
+}
+.home-img img {
+    width: 92%;
+    animation: mover 1s infinite  alternate;
+ 
+}
+.box.b {
+    background: #007936;
+}
+.box.b span {
+    color: orange;
+}
+.box.c {
+    background: #cc3433;
+}
+
+.box.c span {
+    color: orange;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.btn-area {
+    text-align: start;
+}
+button#btn {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 160px;
+    height: 51px;
+    text-transform: capitalize;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+}
+.home-right-text {
+    margin-top: 66px;
+}
+.home-img {
+    text-align: center;
+}
+.text p {
+    font-size: 16px;
+    color: #bab8b8;
+    padding-top: 26px;
+    margin: 0;
+    margin-top: 10px;
+    line-height: 24px;
+   
+}
+
+.download {
+    display: flex;
+    margin-top: 48px;
+}
+.download-image img {
+    width: 100%;
+}
+
+.download>div:last-child {
+    margin-left: 26px;
+}
+
+.text{
+    text-align: start;
+}
+.text h1:before {
+    content: '';
+    width: 158px;
+    height: 3px;
+    background: orange;
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 1px;
+}
+.home-icons h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 17px;
+}
+.home-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 66%;
+    margin-top: 44px;
+    margin-bottom: 55px;
+    text-align: start;
+}
+.home-icons i {
+    font-size: 38px;
+    color: orange;
+    margin-bottom: 19px;
+    margin-left: 7px;
+}
+.box img {
+    width: 135px;
+    position: absolute;
+    top: 10px;
+    left: -29px;
+}
+
+.box {
+    background: #ffba00;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 19px 15px;
+    position: relative;
+    overflow: hidden;
+}
+/* .row.breket {
+    padding: 0px 60px;
+} */
+.box-text {
+    text-align: start;
+    margin-left: 135px;
+}
+
+.my-card {
+    padding: 80px 0;
+}
+
+.box-text h5 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.box-text p {
+    color: #fff;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.box-text span {
+    margin-bottom: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #000;
+}
+.left-food img {
+    width: 190px;
+}
+
+.left-food {
+    background: #171717;
+    display: flex;
+    color: #fff;
+    padding: 27px 30px;
+    border-radius: 10px;
+   
+}
+.row.braket2 {
+    padding: 50px 55px;
+}
+
+.left-food p:first-child {
+    color: orange;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.foodtext {
+    margin-top: 20px;
+}
+.foodtext p {
+    color: #a7a7a7;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 11px;
+}
+.foodtext span {
+    color: orange;
+}
+.foodtext h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.left-food.b img {
+    width: 199px;
+}
+
+.accsilentfood {
+    margin: 60px 0;
+    padding-bottom: 29px;
+
+}
+
+
+.left-images img {
+    width: 100%;
+    border-radius: 11px;
+}
+
+.serprice-fod {
+}
+
+
+.rights-content h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    position: relative;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    line-height: 38px;
+    margin-bottom: 71px;
+
+}
+
+.rights-content h1:before {content: '';
+    width: 146px;
+    height: 3px;
+    display: block;
+    background: orange;
+    position: absolute;
+    bottom: -42px;
+}
+
+.rights-content p {
+    color: #999999fc;
+    margin-bottom: 10px;
+}
+
+.intruductionMain {
+    display: flex;
+    line-height: 14px;
+    align-items: baseline;
+}
+
+.intruductionMain i {
+    margin-right: 10px;
+    color: orange;
+    font-size: 14px;
+}
+.intruductionMain p {
+    color: #ffffffa3;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.introduction {
+    margin-top: 16px;
+}
+
+.introduction-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 76%;
+    margin-bottom: 21px;
+}
+.introduction-btn button {
+    border: 1px solid orange;
+    background: orange;
+    padding: 16px 40px;
+    text-transform: capitalize;
+    color: #000000d1;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+.about-simple-part {
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+}
+.simple-contact-left img {
+    width: 61%;
+}
+
+.simple-contact-left {
+    display: flex;
+    justify-content: center;
+}
+.simple-contact-left img {
+    width: 70%;
+    animation: mover 1s infinite alternate;
+}
+
+.simple-contact-left {
+    display: flex;
+    justify-content: center;
+}
+
+.simple-contact-right-text h1 {
+    font-weight: 700;
+    color: #fff;
+    line-height: 41px;
+    font-size: 41px;
+    position: relative;
+    margin-bottom: 51px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 37px;
+}
+.simple-contact-right-box.a {
+    margin-top: 29px;
+}
+.simple-contact-right-text h1:before {content: '';width: 112px;height: 4px;
+    display: block;
+    background: orange;
+    position: absolute;
+    bottom: -32px;
+}
+.simple-contact-right-text p {
+    color: #bebebe;
+    line-height: 23px;
+    font-size: 16px;
+}
+.simple-contact-right-box-area {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.simple-contact-right-box-area i {
+    font-size: 36px;
+    color: #fff;
+}
+
+
+.simple-contact-right-box {
+    width: 84%;
+    margin-top: 32px;
+}
+
+.simple-contact-right-box-area {
+    background: #171717;
+}
+.i-box {
+    background: orange;
+    padding: 16px 18px;
+    margin: 13px;
+    border-radius: 6px;
+}
+.box-content h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+    
+    .box-content p {
+        color: #8f8d8d;
+        margin: 0;
+    }
+
+.box-content {
+    margin-left: 9px;
+}
+
+
+
+.col-lg-6.col-md-12.col-12.simple-contact-rightcontent {
+    padding: 30px 10px;
+}
+.downloads {
+    margin-bottom: 120px;
+    margin-top: 113px;
+}
+
+
+
+.card img {
+    border-radius: 7px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .home {
+        height: 100%;
+        padding-top: 120px;
+        z-index: -1;
+        padding-bottom: 60px;
+    }
+    .text h1 {
+       
+    font-size: 37px;
+    padding-bottom: 12px;
+    line-height: 40px;
+
+    }
+    .home-icons {
+        margin-top: 30px;
+    margin: 0;
+    }
+    .text p {
+        padding-top: 20px;
+    }
+    .text {
+        padding: 0px 0px;
+        margin-top: 19px;
+        margin-bottom: 40px;
+        text-align: start;
+    }
+ 
+    .header {
+        z-index: 1;
+        border-bottom: 1px solid #706042;
+    }
+    div#nav a {
+        padding: 11px 16px;
+        border-bottom: 1px solid #ffa50030;
+        color: #fff;
+        background-size: cover;
+        font-size: 16px;
+        z-index: 1;
+        width: 100%;
+    }
+
+    div#nav a:last-child {
+        margin-bottom: 17px;
+    }
+    div#navbarScroll {
+        border-top: 1px solid orange;
+        margin-top: 11px;
+        background: linear-gradient(45deg, black, transparent);
+        padding-bottom: 20px;
+    }
+    header.main-header {
+        margin-left: 16px;
+    }
+    #main-nav:target {
+        width: 66%;
+    }
+    .main-nav {
+        position: fixed;
+        top: 75px;
+        right: 2px;
+
+    }
+    .row.breket {
+        padding: 0px 0px;
+    }
+    .my-card {
+        padding: 0 11px;
+    }
+    .col-lg-4.col-md-12.col-12.a {
+        margin-bottom: 27px;
+    }
+    .left-food {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .row.braket2 {
+        padding: 0px 0px;
+    }
+    .accsilentfood {
+        padding: 0 11px;
+    }
+    .left-food img {
+        width: 97%;
+    }
+    .left-food.b img {
+        width: 100%;
+    }
+
+
+    .row.serprice-fod {
+        padding: 0 0px;
+    }
+    .about-simple-part {
+        padding: 0 10px;
+    }
+    .rights-content h1 {
+        font-size: 27px;
+        line-height: 29px;
+    }
+    .rights-content {
+        margin-top: 75px;
+    }
+    .introduction-area {
+        width: 88%;
+    }
+    .btn-area {
+        text-align: start;
+    margin-top: 32px;
+    }
+    .home-right-text {
+        margin-top: 0px;
+    }
+
+    .simple-contact-right-text h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    
+    }
+    .simple-contact-right-box {
+        width: 100%;
+    }
+
+    .simple-contact-right-box-area {
+        padding: 16px 10px;
+    }
+
+    
+
+    .downloads {
+        padding: 0 9px;
+    }
+    .simple-contact-left img {
+        width: 69%;
+    }
+    .simple-contact-right-text h1:before {
+        bottom: -26px;
+    }
+    .box-text {
+        text-align: start;
+        margin-left: 120px;
+    }
+
+}
+
+
+@media screen 
+and (max-width : 374px) 
+ {
+    .box-text {
+        text-align: start;
+        margin-left: 110px;
+    }
+    ul.react-tabs__tab-list li {
+        margin-bottom: 11px;
+        margin-left: 19px;
+    }
+}
+
+
