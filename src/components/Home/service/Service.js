@@ -8,7 +8,7 @@ const Service = () => {
 
 const [user,setUser]=useState([])
    useEffect(()=>{
-       fetch(`http://localhost:5000/services`)
+       fetch(`https://floating-shore-46558.herokuapp.com/services`)
        .then(response=>response.json())
        .then(data=>setUser(data.slice(0,8)))
    },[])
@@ -16,14 +16,14 @@ const [user,setUser]=useState([])
    const [user2,setUser2]=useState([])
 
    useEffect(()=>{
-    fetch(`http://localhost:5000/services`)
+    fetch(`https://floating-shore-46558.herokuapp.com/services`)
     .then(response=>response.json())
     .then(data=>setUser2(data.slice(8,16)))
 },[])
    const [user3,setUser3]=useState([])
 
    useEffect(()=>{
-       fetch(`http://localhost:5000/services`)
+       fetch(`https://floating-shore-46558.herokuapp.com/services`)
        .then(response=>response.json())
        .then(data=>setUser3(data.slice(13,21)))
    },[])

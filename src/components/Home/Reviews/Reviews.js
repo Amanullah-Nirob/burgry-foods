@@ -9,7 +9,7 @@ import RightArrow from "../../../assets/right-arrow.svg"
 const Reviews = () => {
     const [data,setData]=useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/reviews`)
+        fetch(`https://floating-shore-46558.herokuapp.com/reviews`)
         .then(res=>res.json())
         .then(data=>setData(data))
     },[])

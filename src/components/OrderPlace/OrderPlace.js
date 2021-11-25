@@ -12,7 +12,7 @@ const OrderPlace = () => {
     const {kam}=useParams()
     const [service,setService]=useState({})
    useEffect(()=>{
-       fetch(`http://localhost:5000/services/${kam}`)
+       fetch(`https://floating-shore-46558.herokuapp.com/services/${kam}`)
        .then(res=>res.json())
        .then(data=>setService(data))
    },[])
@@ -30,7 +30,7 @@ const OrderPlace = () => {
            data.product=service.name;
        }
         console.log(data);
-    fetch(`http://localhost:5000/orders`,{
+    fetch(`https://floating-shore-46558.herokuapp.com/orders`,{
         method: 'post',
         headers: {
             'Content-Type': 'application/json'
