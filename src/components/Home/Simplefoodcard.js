@@ -8,9 +8,9 @@ const Simplefoodcard = () => {
       <Container>
      <div className="row breket">
      <Grid container spacing={3}>
-              <Grid item xs={12} md={4} className="a"> 
+              <Grid item xs={12} md={4} sm={6} className="a" data-aos="fade-right" data-aos-duration="1900"> 
                   <div className="box">
-                      <div className='food-card-img'>
+                       <div className='food-card-img'>
                           <img  src='https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/cheeseburger.png' alt="" />
                       </div>
                       <div className='box-text'>
@@ -20,7 +20,7 @@ const Simplefoodcard = () => {
                       </div>
                   </div>
               </Grid>
-              <Grid item xs={12} md={4} className="a">
+              <Grid item xs={12} md={4}  sm={6} className="a" data-aos="zoom-in" data-aos-duration="1900">
                   <div className="box b">
                       <div>
                           <img  src='https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/QCFS4BS-x.png' alt="" />
@@ -32,7 +32,7 @@ const Simplefoodcard = () => {
                       </div>
                   </div>
               </Grid>
-              <Grid item xs={12} md={4} className="a">
+              <Grid item xs={12} md={4}  sm={12} className="a" data-aos="fade-down-left" data-aos-duration="1900">
                   <div className="box c">
                       <div>
                           <img  src='https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/PNNSUD7-2.png' alt="" />

@@ -7,14 +7,14 @@ const Downloads = () => {
         <Container>
             <Grid container spacing={7}>
                 
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={6} data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div className='simple-contact-left'>
                         <img src="https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/food-Clay-01.jpg" alt="" />
                     </div>
                 </Grid>
                 
                 
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={6} data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div className='simple-contact-right'>
                         <div className='simple-contact-right-text'>
                             <h1>DON'T WORRY ! YOU CAN ORDER YOUR FOOD JUST BY PHONE</h1>
@@ -45,7 +45,7 @@ const Downloads = () => {
                         </div>
                     </div>
                       </div>
-                 <div className="download">
+                 <div className="download" >
                         <div className='download-image'>
                             <img src="https://www.programming-hero.com/img/google-play.svg" alt="" />
                         </div>

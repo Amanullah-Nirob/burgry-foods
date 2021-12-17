@@ -1,0 +1,39 @@
+.makeAdmin form {
+    display: flex;
+    flex-direction: column;
+}
+
+.makeAdmin form input {
+    margin: 7px;
+    padding: 14px;
+    background: #000;
+    border: 0;
+    color: #fff;
+    font-size: 17px;
+}
+.makeAdmin-title{
+    text-align: center;
+}
+.makeAdmin {
+    background: #111;
+    padding: 10px 19px;
+    margin-top: 10%;
+}
+
+.makeAdmin form {
+    padding-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

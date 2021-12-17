@@ -1,0 +1,57 @@
+.myOrder-Box-img img {
+    width: 100%;
+}
+.order-delete-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.user-info h3, h4 {
+    margin: 0;
+}
+.user-info {
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 18px;
+}
+.myOrder-Box-img h3 {
+    margin: 0;
+    margin-top: 23px;
+}
+
+.myOrder-Box-img h4 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.myOrder-box {
+    background: #111;
+    padding: 28px 21px;
+}
+
+.myOrder-box p {
+    margin: 0;
+}
+
+.myOrder-box h4 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

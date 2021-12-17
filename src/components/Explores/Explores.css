@@ -1,0 +1,11 @@
+.explore {
+    padding-top: 10px;
+    overflow: hidden;
+}
+.explore-title h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 6%;
+}
+

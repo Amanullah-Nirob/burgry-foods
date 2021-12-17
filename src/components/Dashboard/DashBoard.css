@@ -1,0 +1,23 @@
+.user-info {
+    text-align: center;
+    margin: 14px 0;
+}
+
+.user-info h3 {
+    margin: 0;
+}
+
+.user-info h4 {
+    margin: 0;
+}
+
+
+.dashboard-home {
+    text-align: center;
+    -webkit-text-stroke-color: hsla(0,0%,100%,.8117647058823529);
+    -webkit-text-fill-color: rgba(2,1,1,0);
+    -webkit-text-stroke-width: 1px;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 900;
+}

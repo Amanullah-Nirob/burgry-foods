@@ -2,20 +2,21 @@ import { getAuth, createUserWithEmailAndPassword,updateProfile,signOut,signInWit
 import { useEffect } from "react";
 import { useState } from "react";
 import initializeFirebase from "../Firebase/Firebase.init";
-
+import swal from 'sweetalert';
 initializeFirebase()
 const UseFirebase = () => {
 const auth = getAuth();
 const [user,setUser]=useState({})
 const [error,setError]=useState('')
+const [error2,setError2]=useState('')
 const [isLoading,setIsLoading]=useState(true)
-
+const [admin,setAdmin]=useState(false)
 // registration
   const registerFunction=(email,password,name,navigate)=>{
     setIsLoading(true)
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-        setError('')
+    setError('') 
       const user = userCredential.user;
      const info={...user,displayName:name}
      setUser(info)
@@ -24,6 +25,7 @@ const [isLoading,setIsLoading]=useState(true)
       }).then(() => {
       }).catch((error) => {
       })
+      userInfoSvae(email,name)
       navigate('/home')
     })
     .catch((error) => {
@@ -39,12 +41,12 @@ const [isLoading,setIsLoading]=useState(true)
     setIsLoading(true)
     signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-        setError('')
+        setError2('')
         const ridairect_uri=location.state?.from || '/home'
         navigate(ridairect_uri)
     })
     .catch((error) => {
-    setError(error.message) 
+    setError2(error.message) 
     })
     .finally(()=>setIsLoading(false))
    }
@@ -52,6 +54,7 @@ const [isLoading,setIsLoading]=useState(true)
 
 
    const googleSingIn=()=>{
+    setIsLoading(true)
     const googleProvider = new GoogleAuthProvider();
     signInWithPopup(auth, googleProvider)
     .then((result) => {
@@ -91,6 +94,40 @@ const logOut=()=>{
 
 
 
+   const userInfoSvae=(email,name)=>{
+     const newUser={email,name}
+     fetch(`https://floating-shore-46558.herokuapp.com/User`,{
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+    body:JSON.stringify(newUser)
+     }).then(res=>res.json())
+     .then(data=>{
+       if(data.insertedId){
+        swal("Good Job", "your Information successfully saved", "success");
+
+       }
+     })
+
+    
+   }
+
+
+    useEffect(()=>{
+      fetch(`https://floating-shore-46558.herokuapp.com/User/${user?.email}`)
+      .then(res=>res.json())
+      .then(data=>{
+        if(data.admin){
+          setAdmin(true)
+        }
+      })
+    },[user.email])
+
+
+
+
+
 
 
 
@@ -103,7 +140,9 @@ const logOut=()=>{
     logOut,
     user,
     error,
-    isLoading
+    isLoading,
+    admin,
+    error2
   }
 
 

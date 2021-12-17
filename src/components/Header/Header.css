@@ -27,7 +27,7 @@
 .headers {
     position: absolute;
     width: 100%;
-    padding-top: 17px;
+    padding: 17px 0;
 }
 .list-area-all-content{
     display: flex;

@@ -3,7 +3,7 @@ import React from 'react';
 import './Subscribe.css'
 const Subscribe = () => {
     return (
-        <div className='subscribe'>
+        <div className='subscribe'   data-aos="flip-down" data-aos-duration="1700">
             <Container>
                <Grid container spacing={2}>
                  <Grid item xs={12} md={5}>

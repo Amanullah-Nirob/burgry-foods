@@ -30,11 +30,11 @@ const [user,setUser]=useState([])
 
 
 return (
-        <Tabs>
+<Tabs>
 <div style={{backgroundColor:'black'}}>
 <Container>
-<div className="servise-text">
-<div className='service-title'>
+<div className="servise-text" data-aos="fade-down" data-aos-duration="1700">
+<div className='service-title' >
    <h1>OUR BEST MENUES</h1>
    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo <br />  Aenean.eget dolor.  Aenean.</p>
 </div>
@@ -51,9 +51,9 @@ return (
 </div>
 <TabPanel>
 {user.length===0?<CircularProgress  sx={{display:'block',margin:'auto'}}/>:
-<Grid container spacing={2}>
+<Grid container spacing={{ xs: 2, md: 3 }} >
 {
-user.map((x)=><ServiceCard1 key={x.id} card={x} />)
+user.map((x)=><ServiceCard1 key={x._id} card={x} />)
 }
 </Grid>}
 </TabPanel>

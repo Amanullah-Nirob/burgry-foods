@@ -6,12 +6,12 @@ const AboutSimple = () => {
         <div className='about-simple-part'>
         <Container>
             <Grid container spacing={4}>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div className='left-images'>
             <img src="https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/homemade-beef-burger-caramelized-onion-bacon-and-beer-e1627971449244.jpg" alt="" />
                 </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div className='rights-content'>
                     <div>
                         <h1>FIND YOUR BEST TASTED FOOD & DRINKS JUST IN ONE PLACE</h1>

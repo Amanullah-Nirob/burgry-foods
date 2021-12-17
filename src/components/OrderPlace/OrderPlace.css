@@ -3,7 +3,7 @@
 }
 
 .orderPlace-Section {
-    height: 75vh;
+    height: 90vh;
     padding-top: 80px;
     display: flex;
     align-items: center;
@@ -44,4 +44,44 @@
     margin-bottom: 10px;
     font-family: 'Oswald', sans-serif;
 
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.main-quantity button{
+    background-color: transparent;
+    border: 0;
+}
+.main-quantity img {
+    width: 45%;
+}
+.main-quantity h3 {
+    margin: 0;
+}
+.main-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    border: 1px solid #402f10;
+    border-radius: 45px;
+    padding: 6px 0;
+}
+.service-details h2, p {
+    margin: 0;
+}
+.descriptions {
+    margin: 22px 0;
+}
+
+@media screen and (max-width:768px) {
+    .orderPlace-Section {
+        padding-top: 70%;
+    
+    }
 }

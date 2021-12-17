@@ -12,7 +12,7 @@ import Service from './service/Service';
 import Simplefoodcard from './Simplefoodcard';
 import Subscribe from './subscribe/Subscribe';
 
-
+import Footer from '../Footer/Footer'
 const Home = () => {
         return (
         <div>
@@ -27,6 +27,7 @@ const Home = () => {
  <Reservation></Reservation>
 <Articles></Articles>
 <Subscribe></Subscribe>
+<Footer></Footer>
         </div>
         );
 };

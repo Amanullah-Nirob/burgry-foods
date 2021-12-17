@@ -7,7 +7,7 @@ const ServiceCard1 = (props) => {
 
     return (
 <Grid item xs={6} md={3}>
-<div className="single-card"data-aos="fade-up" data-aos-duration="1000" >
+<div className="single-card" data-aos="fade-up" data-aos-duration="1000" >
 <div>
         <div >
 

@@ -1,5 +1,6 @@
 import { Button, Container, Grid } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 //       <div className='Main-home-all-contents'></div>
 
 const MainHome = () => {
@@ -10,11 +11,11 @@ const MainHome = () => {
          <Grid container spacing={4}>
        
        {/* left image */}
-   <Grid item  xs={12} md={6} data-aos="zoom-in"  data-aos-duration="1000" data-aos-easing="ease-in-out"data-aos-delay="200">
+   <Grid item  xs={12} md={6} data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine">
    <div className='home-img'> <img  src="https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/N2HMMGN-2.png" alt="" /></div>
    </Grid>
    {/* right content */}
-   <Grid item  xs={12} md={6} className='text-white' id='home-right'data-aos="zoom-in"  data-aos-duration="1000" data-aos-easing="ease-in-out"data-aos-delay="100">
+   <Grid item  xs={12} md={6} className='text-white' id='home-right' data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
       <div className="home-right-text">
       <div className="text">
        <h1>ENJOY BURGRY MAKE YOUR TUMMY HAPPY</h1>
@@ -35,7 +36,9 @@ const MainHome = () => {
 </div>
 </div>
 <div className='btn-area'>
-<button id='btn'  variant="warning mt-5 mb-1">explore</button>
+<Link to='/explore'>
+    <button id='btn'  variant="warning mt-5 mb-1">explore</button>
+</Link>
 </div>
 </div>
    </Grid>

@@ -1,0 +1,19 @@
+.order-box-img img{
+width: 100%;
+}
+
+.all-Order-box {
+    background: #111;
+    padding: 17px 30px;
+    border-radius: 16px;
+}
+.Order-box-description {
+    margin-top: 10px;
+}
+.approve-delete-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+

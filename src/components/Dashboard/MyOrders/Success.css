@@ -1,0 +1,34 @@
+.success-details{
+    text-align: center;
+}
+.success-img{
+width: 100%;
+}
+.success-details a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+display: flex;align-items: center;
+}
+.success-details a h4{
+margin: 0;
+padding-left: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

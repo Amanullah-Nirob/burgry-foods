@@ -1,10 +1,12 @@
-import { Button, CircularProgress, Container, Grid } from '@mui/material';
+import { Alert, Button, CircularProgress, Container, Grid } from '@mui/material';
 import React, { useRef, useState } from 'react';
 import { Link,useLocation,useNavigate } from 'react-router-dom';
+import swal from 'sweetalert';
 import UseAuth from '../../../Hooks/UseAuth';
 import './Login.css'
 const Login = () => {
-const {loginFunction,isLoading}=UseAuth()
+
+const {loginFunction,isLoading,error2}=UseAuth()
 const [userInfo,setUserInfo]=useState({})
    const handleOnChange=(e)=>{
     const filed=e.target.name;
@@ -22,6 +24,12 @@ const [userInfo,setUserInfo]=useState({})
    loginFunction(userInfo.email,userInfo.password,location,navigate)
 }
 
+
+ 
+
+
+
+
     return (
         <div className='authentication-area'>
         <Container>
@@ -38,7 +46,10 @@ const [userInfo,setUserInfo]=useState({})
                    <Link to='/register'>
                        <Button>New User? register now</Button>
                    </Link>
+                   {error2 && <Alert severity="error">{error2}</Alert>}
+
                </div>}
+
                {isLoading && <CircularProgress sx={{margin:'auto',display:'block'}} />}
 
           </Grid>

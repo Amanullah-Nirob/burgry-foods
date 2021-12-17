@@ -1,10 +1,10 @@
-import { Button, CircularProgress, Container, Grid } from '@mui/material';
+import { Alert, Button, CircularProgress, Container, Grid } from '@mui/material';
 import React, { useState } from 'react';
 import { Link,useNavigate } from 'react-router-dom';
 import UseAuth from '../../../Hooks/UseAuth';
 
 const Register = () => {
-const {registerFunction,isLoading}=UseAuth()
+const {registerFunction,isLoading,error}=UseAuth()
 const [userInfo,setUserInfo]=useState({})
    const handleOnChange=(e)=>{
     const filed=e.target.name;
@@ -40,6 +40,7 @@ const navigate=useNavigate()
                    <Link to='/login'>
                        <Button>Already Register? Login Now</Button>
                    </Link>
+                   {error && <Alert severity="error">{error}</Alert>}
                </div>}
                {isLoading && <CircularProgress sx={{margin:'auto',display:'block'}} />}
           </Grid>

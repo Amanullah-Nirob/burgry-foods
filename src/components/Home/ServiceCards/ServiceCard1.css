@@ -14,7 +14,7 @@ img#card-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 244px;
+    width: 100%;
    
 }
 div#react-tabs-1 {
@@ -120,5 +120,10 @@ a.first-link {
     }
 }
 
-
+@media screen and (min-width:768px) and (max-width:991px) {
+    .card-img-area {
+        height: 252px;
+        width: 100%;
+    }
+}
 

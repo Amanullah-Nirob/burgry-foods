@@ -416,7 +416,7 @@ button#btn {
 
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
     .home {
         height: 100%;
         padding-top: 120px;
@@ -521,7 +521,7 @@ button#btn {
         margin-top: 75px;
     }
     .introduction-area {
-        width: 88%;
+        width: 100%;
     }
     .btn-area {
         text-align: start;
@@ -576,5 +576,93 @@ and (max-width : 374px)
         margin-left: 19px;
     }
 }
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .home {
+        background-color: #000000;
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(
+    0deg, #000000 0%, #000000E3 74%),url(https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/dark-wooden-background-with-flour-dust.jpg);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 17%;
+    }
+    .home-right-text {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    .reservation-section {
+        background-image: linear-gradient(
+    210deg, #00000059 0%, #000000 100%),url(https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/07/three-men-enjoying-burgers-and-beer-in-bar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 100px;
+        height: 38vh;
+        display: flex;
+        align-items: center;
+    }
+    .backgotund-area {
+        height: 50vh;
+        margin-bottom: 110px;
+        position: relative;
+        color: #fff;
+    }
+    .container.area {
+        width: 45%;
+        left: 29%;
+        top: 40%;
+
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container.area {
+        width: 65%;
+        left: 19%;
+        top: 40%;
+    }
+    .introduction-area {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:1024px) {
+    .backgotund-area {
+        height: 50vh;
+        margin-bottom: 110px;
+
+    }
+    .container.area {
+        width: 43%;
+        left: 32%;
+        top: 39%;
+   
+    }
+    .reservation-section {
+        height: 35vh;
+
+    }
+
+    
+} */
 
 

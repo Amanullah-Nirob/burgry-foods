@@ -7,7 +7,7 @@ const Borocard = () => {
         <Container>
    
             <Grid container spacing={3}>
-                <Grid item xs={12} md={6} className="col-lg-6 col-md-12 col-12">
+                <Grid item xs={12} md={6} className="col-lg-6 col-md-12 col-12" data-aos="fade-up" data-aos-duration="1800">
                     <div className="left-food">
                         <div className='foodtext'>
                             <p>Payday promo</p>
@@ -21,7 +21,7 @@ const Borocard = () => {
                         </div>
                     </div>
                 </Grid>
-                <Grid item xs={12} md={6} className="col-lg-6 col-md-12 col-12">
+                <Grid item xs={12} md={6} className="col-lg-6 col-md-12 col-12"  data-aos="fade-down" data-aos-duration="1800">
                     <div className="left-food b">
                         <div className='foodtext'>
                             <p>Payday promo</p>

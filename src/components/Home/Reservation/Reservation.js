@@ -8,7 +8,7 @@ const Reservation = () => {
             <Container>
                 
                 <Grid container spacing={2}>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={6} data-aos="zoom-in"  data-aos-duration="1700" >
                         <div className='reservation-content'>
                             <h1>GET A SPECIAL OFFER FOR YOUR SPECIAL OCCASION</h1>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
