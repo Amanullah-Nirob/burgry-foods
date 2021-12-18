@@ -12,7 +12,7 @@ const Review = ({card}) => {
                           <div className='reviews-user-intro'>
                               <div className='review-user'>
                                   <div className='review-user-image'>
-                                      <img src={img} alt="" />
+                                      <img src={`data:image/jpeg;base64,${img}`} alt="" />
                                   </div>
                                   <div className='review-user-name-title'>
                                       <h3>{name}</h3>

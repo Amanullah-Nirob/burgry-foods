@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 
-.contact-form form input, textarea {
+.contact-form form input, #text-area {
     margin: 8px;
     padding: 13px;
     background: #000;

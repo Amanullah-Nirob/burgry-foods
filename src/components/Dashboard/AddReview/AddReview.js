@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import {  Container, Grid } from '@mui/material';
 import UseAuth from '../../../Hooks/UseAuth';
 import swal from 'sweetalert';
@@ -7,35 +7,34 @@ import './AddReview.css'
 const AddReview = () => {
 const {user}=UseAuth()
 
-    const nameRef=useRef()
-    const emailRef=useRef()
-    const imgRef=useRef()
-    const RatingRef=useRef()
-    const disRef=useRef()
+   const [name,setName]=useState('')
+   const [title,setTitle]=useState('')
+   const [img,setImg]=useState(null)
+   const [dis,setDis]=useState('')
+
+
+  
 
     const formSubmit=(e)=>{
         e.preventDefault()
-           const name=nameRef.current.value;
-           const title=emailRef.current.value;
-           const img=imgRef.current.value;
-           const dis=disRef.current.value;
-           const rating=RatingRef.current.value;
+        const formData = new FormData();
 
-           const data={name,title,dis,img,rating}
-         
+        formData.append('img',img);
+        formData.append('name',name);
+        formData.append('title',title);
+        formData.append('dis',dis);
+   
+
+         // 
     fetch(`https://floating-shore-46558.herokuapp.com/reviews`,{
         method: 'post',
-        headers: {
-            'Content-Type': 'application/json'
-          },
-    
-          body:JSON.stringify(data)
+         body: formData
     })
 .then(res=>res.json())
 .then(data=>{
     if(data.insertedId){
         swal("Good Job", "your order successfully added", "success");
-        e.target.reset()
+        // e.target.reset()
     }
 })
 
@@ -58,12 +57,12 @@ const {user}=UseAuth()
                     <div className='review-form'>
                      <h1>Review form</h1>
                     <form onSubmit={formSubmit}>
-                    <input ref={nameRef}  type="text" placeholder='Name'/> 
-                         <input ref={emailRef} type="text" placeholder='Title' />  
-                         <input ref={RatingRef}  type="number" placeholder='Rating'  /> 
-                         <input ref={imgRef}  type="text" placeholder='image URL'  /> 
+
+                    <input type="text" placeholder='Name' onChange={e=>setName(e.target.value)}  /> 
+                         <input type="text" placeholder='Title' onChange={e=>setTitle(e.target.value)}  />  
+                         <input   type="file" placeholder='image URL' onChange={e=>setImg(e.target.files[0])}  /> 
                           <div className='text-area'>
-                          <textarea ref={disRef} cols="30" rows="10"></textarea> 
+                          <textarea onChange={e=>setDis(e.target.value)}   cols="30" rows="10"></textarea> 
                           </div>
                         <input type="submit" value="Submit" />
                      </form>
